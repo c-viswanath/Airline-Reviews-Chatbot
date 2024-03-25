@@ -1,6 +1,9 @@
 # Airline Reviews Analysis App
 
-If you face any issues cloning the repository, create a issue, I will be more than happy in addressing it!
+The Airline Reviews Analysis app is a **Streamlit** application that leverages natural language processing (NLP) techniques, including `GPT-3.5 Turbo`, to provide answers to user questions based on provided context. The app utilizes the **`LangChain framework`**, specifically `ChatOpenAI` and `FAISS`, for document retrieval and language modeling tasks. It first preprocesses user queries and then employs a **retrieval-augmented generation (RAG)** approach to generate relevant answers using a combination of document retrieval and language modeling. The app's interface allows users to input questions interactively, and upon submission, it retrieves and displays the corresponding answers derived from the preprocessed context and user query. It enhances user engagement by providing timely and contextually relevant responses, facilitating effective analysis of airline reviews.
+
+
+**If you face any issues cloning the repository, open an issue, I will be more than happy in addressing it!**
 
 ## How to setup
 1. clone this repository in your local machine using the following command
