@@ -1,11 +1,14 @@
 # Airline Reviews Analysis App
 
+If you face any issues cloning the repository, create a issue, I will be more than happy in addressing it!
+
 ## How to setup
 1. clone this repository in your local machine using the following command
     `git clone https://github.com/c-viswanath/Airline-Reviews-Chatbot`
-2. Create and start a new environment called `venv`
-3. Install all the requirements from `requirements.txt`
-4. Run `streamlit run app1.py` to run the app. (It will take some time for the first time to load the app because it has to generate the vectors, from the seconf time unless ou have made any changes to the vector file the speed will be much faster)    
+2. Generate and OpenAI API key to use **`gpt 3.5 turbo`** and add it in the environment variables file `.env`.    
+3. Create and start a new environment called `venv`.
+4. Install all the requirements from `requirements.txt`.
+5. Run `streamlit run app1.py` to run the app. (It will take some time for the first time to load the app because it has to generate the vectors, from the seconf time unless ou have made any changes to the vector file the speed will be much faster)    .
 
 ## Description
 
